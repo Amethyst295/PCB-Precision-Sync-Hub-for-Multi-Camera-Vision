@@ -13,7 +13,7 @@ every script used to produce the results of the Phase 1 technical document.
 | PHY / clock | LAN8742A (RMII) · ECS-TXO-2016 25 MHz TCXO + SN74LVC2G34 buffer |
 | Channels | 8 isolated trigger outputs + 8 isolated strobe inputs (ISO7740F ×4, 74AC541, RFM-0505S) |
 | Power | 7–12 V in → LMR16006X buck (5.05 V) → TLV1117LV33 (3.3 V) |
-| Board | 85 × 75 mm, 4 layers (AI-seeded placement) |
+| Board | 100 × 66 mm, 1.6 mm FR-4, 4 layers |
 
 ## Contents
 
@@ -33,7 +33,7 @@ every script used to produce the results of the Phase 1 technical document.
 | `docs/BOM_for_quote.csv` | Line-by-line BOM with manufacturer part numbers, quantities and reference designators (ready for Digi-Key / Mouser BOM tools) | 6.1, Annex G |
 | `docs/BOM_prices.xlsx` | Unit price of every component at 1 and 1,000 pieces (MXN) with its source, used for section 6.1 | 6.1 |
 
-`placement_GA.csv` is the placement used on the final PCB (x, y in mm from the bottom-left board corner, rotation in degrees).
+`placement_GA.csv` is the AI placement reference on the 85 × 75 mm outline (x, y in mm from the bottom-left board corner, rotation in degrees); the final routed board is 100 × 66 mm.
 
 ## Reproducing the results
 
