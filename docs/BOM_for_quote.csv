@@ -1,0 +1,57 @@
+Quantity per board,Manufacturer Part Number,Manufacturer,Reference Designators,Description,Status
+1,STM32F407VET6,STMicroelectronics,U4,"MCU Cortex-M4F 168 MHz 512 KB, LQFP-100",defined
+1,LAN8742A-CZ-TR,Microchip,U6,"Ethernet PHY 10/100 RMII, QFN-24",defined
+1,ECS-TXO-2016-33-250-TR,ECS Inc.,Y1,"TCXO 25 MHz 3.3 V HCMOS, 2.0 x 1.6 mm",defined
+1,SN74LVC2G34DCKR,Texas Instruments,U5,"Dual buffer (clock fan-out), SC-70-6",defined
+4,ISO7740FDWR,Texas Instruments,"U7, U8, U9, U10","Digital isolator 4 ch reinforced, default-low output, SOIC-16W (symbol value says ISO7740DWR; buy the F version)",confirm F vs non-F
+1,74AC541MTCX,onsemi,U11,"Octal buffer/line driver 74AC, TSSOP-20 (footprint in schematic = TSSOP20)",defined
+1,RFM-0505S,RECOM,U3,"Isolated DC/DC 5 V -> 5 V 1 W, SIP-4",defined
+1,LMR16006XDDCR,Texas Instruments,U1,"Buck regulator 60 V 0.6 A 0.7 MHz, SOT-23-6",defined
+1,1255AY-220M=P3,Murata,L1,"Power inductor 22 uH 20 % 1.9 A, 6.0 x 6.0 mm shielded (DG6045C)",defined
+2,SS16,onsemi,"D1, D3","Schottky 60 V 1 A, SMA (D1 reverse polarity, D3 buck catch diode)",defined
+1,TLV1117LV33DCYR,Texas Instruments,U2,"LDO 3.3 V 1 A, SOT-223 (symbol says LM1117MP-3.3; property code = TLV1117LV33)",confirm
+1,SMBJ33A,Littelfuse,D2,"TVS 33 V 600 W unidirectional, SMB",defined
+4,SRV05-4.TCT,Semtech,"U12, U13, U14, U15","TVS array 4 lines, SOT-23-6",defined
+1,"BAT54S,215",Nexperia,D10,"Dual Schottky series, SOT-23 (PPS input clamp)",defined
+1,1812L050/60MR,Littelfuse,FU1,"PTC resettable fuse 0.5 A hold 60 V, 1812 (schematic: ""PTC 1812 0.5 A 60 V"", no MPN)",proposed
+2,BLM18KG601SN1D,Murata,"FB1, FB2","Ferrite bead 600 R @ 100 MHz, 0603",defined
+3,LTST-C191KGKT,Lite-On,"D4, D5, D6",LED green 0603,defined
+1,LTST-C191KSKT,Lite-On,D7,LED yellow 0603,defined
+1,LTST-C191KRKT,Lite-On,D8,LED red 0603,defined
+1,LTST-C191TBKT,Lite-On,D9,LED blue 0603,defined
+1,HR911105A,HanRun,J3,"RJ45 with integrated magnetics and LEDs, THT",defined
+1,1729128,Phoenix Contact,J1,"Terminal block 2 pos 5.08 mm (MKDS 1,5/2-5,08)",defined
+1,TSW-106-07-G-S,Samtec,SWD header,Header 1x6 2.54 mm,defined
+1,TSW-104-07-G-S,Samtec,J5 (UART),Header 1x4 2.54 mm,defined
+1,TSW-103-07-G-S,Samtec,J4 (PPS),Header 1x3 2.54 mm,defined
+8,B4B-XH-A(LF)(SN),JST,J10-J17 (camera ports),"XH header 4 pos 2.5 mm, vertical THT",defined
+8,XHP-4,JST,mates J10-J17,XH housing 4 pos (cable side),"cable side, not on PCB"
+36,SXH-001T-P0.6,JST,mates J10-J17,XH crimp contact 22-28 AWG (32 + 4 spares),"cable side, not on PCB"
+5,5001,Keystone,TP1-TP5,"Test point THT, black",defined
+25,GRM188R71H104KA93D,Murata,"C3, C10, C14, C21-C26, C31, C32, C34, C37-C39, C42, C44-C52",100 nF 50 V X7R 0603 (decoupling),defined
+1,GRM188R72A104KA35D,Murata,C4,100 nF 100 V X7R 0603 (buck bootstrap),defined
+5,GRM188R71C105KA12D,Murata,"C8, C11, C13, C35, C53",1 uF 16 V X7R 0603,defined
+2,GRM188R61A225KE34D,Murata,"C28, C29",2.2 uF 10 V X5R 0603 (MCU VCAP),defined
+1,GRM32ER72A225KA35L,Murata,C2,2.2 uF 100 V X7R 1210 (buck input),defined
+2,GRM21BR61C475KA88L,Murata,"C17, C27",4.7 uF 16 V X5R 0805,defined
+3,GRM21BR61A106KE19L,Murata,"C9, C15, C18",10 uF 10 V X5R 0805,defined
+2,GRM31CR61A226ME19L,Murata,"C6, C7",22 uF 10 V X5R 1206 (buck output),defined
+1,EEE-FK1J330P,Panasonic,C1,33 uF 63 V aluminium electrolytic SMD (bulk input),defined
+2,C1206C102KGRACTU,KEMET,"C20, C43",1 nF 2 kV X7R 1206 (GND-GND_ISO and RJ45 shield),defined
+1,GRM1885C1H471JA01D,Murata,C36,470 pF 50 V C0G 0603 (PHY VDDCR),defined
+1,GRM188R71H223KA01D,Murata,C41,22 nF 50 V X7R 0603,defined
+18,RC0603FR-0733RL,Yageo,"R15, R18, R19, R22-R24, R26, R28, R35, R36, RN1_1-4, RN2_1-4","33 R 0603 (RMII, clock and trigger series)",defined
+15,RC0603FR-0710KL,Yageo,"R4, R9, R10, R17, R20, R21, RN3_1-4, RN4_1-4 + 1 (confirm)",10 k 0603,confirm qty 14/15
+8,RC0603FR-0782RL,Yageo,"RN5_1-4, RN6_1-4",82 R 0603 (trigger output series),defined
+8,RC0603FR-074K7L,Yageo,"RN7_1-4, RN8_1-4",4.7 k 0603 (strobe pull-ups),defined
+8,RC0603FR-07100RL,Yageo,"RN9_1-4, RN10_1-4",100 R 0603 (strobe series),defined
+6,RC0603FR-071KL,Yageo,"R8, R11-R14, R16",1 k 0603 (LEDs),defined
+4,RC0603FR-0749R9L,Yageo,R30-R33,49.9 R 0603 (Ethernet terminations),defined
+1,RC0603FR-07100KL,Yageo,R1,100 k 0603,defined
+1,RC0603FR-0756KL,Yageo,R3,"56 k 0603 (buck feedback, top)",defined
+1,RC0603FR-072K2L,Yageo,R5,2.2 k 0603 (power LED),defined
+1,RC0603FR-0710RL,Yageo,R6,10 R 0603 (TCXO supply filter),defined
+1,RC0603FR-071K5L,Yageo,R25,1.5 k 0603,defined
+1,RC0603FR-0712K1L,Yageo,R29,"12.1 k 1 % 0603 (LAN8742A RBIAS; schematic says 12K, datasheet value is 12.1 k)",check value
+1,RC1206FR-07270RL,Yageo,R7,270 R 1206 (RFM-0505S minimum load),defined
+1,RC1206FR-071ML,Yageo,R34,1 M 1206 (RJ45 shield bleed),defined

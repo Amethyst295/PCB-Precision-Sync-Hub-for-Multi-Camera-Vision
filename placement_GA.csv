@@ -8,7 +8,7 @@ D_TVS,SMBJ33A (SMB),24.42,18.8,90,4.2,6.0,board side
 D_REV,Schottky 60 V 1 A (SMA) reverse-polarity,29.48,17.6,90,3.0,5.6,board side
 C_BULK,EEE-FK1J330P 33 uF 63 V + 2.2 uF 100 V,34.69,25.11,90,7.0,7.0,board side
 U_BUCK,LMR16006X + FB 56k/10k + CB,37.18,60.63,90,5.5,6.5,board side
-L1,Bourns 1255AY-220M 22 uH,37.17,68.38,0,6.6,6.6,board side
+L1,Murata 1255AY-220M=P3 22 uH,37.17,68.38,0,6.6,6.6,board side
 D_CATCH,Schottky catch diode (SMA),31.67,61.05,90,3.0,5.6,board side
 C_OUT5,2x 22 uF 1206 (5 V output),37.22,53.72,0,5.0,4.0,board side
 U_LDO,TLV1117LV33 SOT-223 + 10 uF,40.24,15.26,270,8.0,8.0,board side
@@ -25,8 +25,8 @@ U_ISO_T2,ISO7740F trigger ch5-8,52.0,14.2,0,11.0,12.0,straddles barrier
 U_ISO_S1,ISO7740F strobe ch1-4,52.0,66.94,0,11.0,12.0,straddles barrier
 U_ISO_S2,ISO7740F strobe ch5-8,52.0,53.71,0,11.0,12.0,straddles barrier
 U_RFM,RFM-0505S isolated 5 V/1 W + 270R min load,52.0,3.75,0,12.5,6.5,straddles barrier
-U_DRV,74AC541 SO-20W line driver (5V_ISO),63.44,26.52,270,11.5,13.5,isolated side
-U_TSSOP,TSSOP-20 (TRIG group),63.47,4.47,270,7.0,7.0,isolated side
+U_DRV,74AC541 line driver U11 + output network area (5V_ISO),63.44,26.52,270,11.5,13.5,isolated side
+U_TSSOP,reserved area (no part; duplicate footprint entry),63.47,4.47,270,7.0,7.0,isolated side
 R_TRIG_IA,4x 82R + 4x 10k (ch1-4),62.38,37.66,270,4.5,6.0,isolated side
 R_TRIG_IB,4x 82R + 4x 10k (ch5-8),63.89,16.29,0,6.0,4.5,isolated side
 R_STB_IA,4x 100R + 4x 4.7k (ch1-4),63.95,67.17,90,4.5,6.0,isolated side

@@ -30,6 +30,7 @@ every script used to produce the results of the Phase 1 technical document.
 | `firmware/STM32F407VE_1/` | Proteus VSM project sources, including the trained `mlp_weights.h` and `anomaly_tree.c` | 3.1, 3.2, 4.3 |
 | `firmware/tools/` | Stand-alone GCC build files and instruction-level emulator for the Flash/RAM/inference figures | 4.4 |
 | `docs/ERC.erc` | Proteus ERC report | 3.2, Annex A |
+| `docs/BOM_for_quote.csv` | Line-by-line BOM with manufacturer part numbers, quantities and reference designators (ready for Digi-Key / Mouser BOM tools) | 6.1 |
 
 `placement_GA.csv` is the placement used on the final PCB (x, y in mm from the bottom-left board corner, rotation in degrees).
 
