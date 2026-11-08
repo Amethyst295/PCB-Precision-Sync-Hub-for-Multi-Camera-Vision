@@ -1,7 +1,8 @@
+"""Figure 7: PI servo vs PI + MLP on unseen heavy-traffic sequences (run from the repository root)."""
 import sys, re, json, numpy as np
-sys.path.insert(0, 'ml'); import ptp_sim as P
+sys.path.insert(0, '.'); import ptp_sim as P
 import matplotlib; matplotlib.use('Agg'); import matplotlib.pyplot as plt
-txt = open('ml/c5/mlp_weights.h').read()
+txt = open('firmware/STM32F407VE_1/mlp_weights.h').read()
 def arr(n):
     m = re.search(n + r'\[[^\]]*\](?:\[[^\]]*\])? = \{(.*?)\};', txt, re.S); return np.array([float(x.rstrip('f')) for x in re.findall(r'[-0-9.e+]+f', m.group(1))])
 mlp = P.MLP(dict(mu=arr('MLP_MU'), sd=arr('MLP_SD'), W1=arr('MLP_W1').reshape(13, 16), b1=arr('MLP_B1'), W2=arr('MLP_W2').reshape(16, 8), b2=arr('MLP_B2'), W3=arr('MLP_W3').reshape(8, 1), b3=arr('MLP_B3')))
