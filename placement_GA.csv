@@ -1,0 +1,47 @@
+unit,contents,x_mm,y_mm,rot_deg,w_mm,h_mm,zone
+U1_MCU,"STM32F407VET6 LQFP-100 + decoupling, VCAP",10.5,41.9,90,20.0,20.0,board side
+U3_PHY,"LAN8742A QFN-24 + 49.9R terminations, RBIAS, RMII 33R",26.71,41.89,90,10.0,11.0,board side
+Y1_TCXO,ECS-TXO-2016-33-250 + 10R/100nF/10uF filter,26.54,27.18,180,5.5,4.5,board side
+U_CLKBUF,SN74LVC2G34 + 2x33R source series,26.41,32.94,90,4.5,4.5,board side
+FU1_PTC,PTC 1812 0.5 A,28.43,10.68,180,5.5,4.0,board side
+D_TVS,SMBJ33A (SMB),24.42,18.8,90,4.2,6.0,board side
+D_REV,Schottky 60 V 1 A (SMA) reverse-polarity,29.48,17.6,90,3.0,5.6,board side
+C_BULK,EEE-FK1J330P 33 uF 63 V + 2.2 uF 100 V,34.69,25.11,90,7.0,7.0,board side
+U_BUCK,LMR16006X + FB 56k/10k + CB,37.18,60.63,90,5.5,6.5,board side
+L1,Bourns 1255AY-220M 22 uH,37.17,68.38,0,6.6,6.6,board side
+D_CATCH,Schottky catch diode (SMA),31.67,61.05,90,3.0,5.6,board side
+C_OUT5,2x 22 uF 1206 (5 V output),37.22,53.72,0,5.0,4.0,board side
+U_LDO,TLV1117LV33 SOT-223 + 10 uF,40.24,15.26,270,8.0,8.0,board side
+FB1_A,BLM18KG601 -> 3V3A (PHY/VDDA),34.4,42.06,90,2.5,3.5,board side
+FB2_CLK,BLM18KG601 -> 3V3_CLK (TCXO),21.3,27.18,90,2.5,3.5,board side
+R_TRIG_MA,4x 33R MCU-side trigger series (ch1-4),41.02,41.34,180,6.0,2.5,board side
+R_TRIG_MB,4x 33R MCU-side trigger series (ch5-8),47.0,25.54,180,6.0,2.5,board side
+J_SWD,TSW-106 SWD/SWO/NRST header,16.86,8.36,270,3.0,15.5,board side
+J_UART,TSW-104 UART header,12.64,6.0,270,3.0,10.5,board side
+J_PPS,TSW-103 PPS in/out + BAT54S clamp,21.84,4.77,270,3.0,8.0,board side
+LEDS,4 status LEDs + resistors,8.41,28.38,0,9.0,3.0,board side
+U_ISO_T1,ISO7740F trigger ch1-4,52.0,40.48,0,11.0,12.0,straddles barrier
+U_ISO_T2,ISO7740F trigger ch5-8,52.0,14.2,0,11.0,12.0,straddles barrier
+U_ISO_S1,ISO7740F strobe ch1-4,52.0,66.94,0,11.0,12.0,straddles barrier
+U_ISO_S2,ISO7740F strobe ch5-8,52.0,53.71,0,11.0,12.0,straddles barrier
+U_RFM,RFM-0505S isolated 5 V/1 W + 270R min load,52.0,3.75,0,12.5,6.5,straddles barrier
+U_DRV,74AC541 SO-20W line driver (5V_ISO),63.44,26.52,270,11.5,13.5,isolated side
+U_TSSOP,TSSOP-20 (TRIG group),63.47,4.47,270,7.0,7.0,isolated side
+R_TRIG_IA,4x 82R + 4x 10k (ch1-4),62.38,37.66,270,4.5,6.0,isolated side
+R_TRIG_IB,4x 82R + 4x 10k (ch5-8),63.89,16.29,0,6.0,4.5,isolated side
+R_STB_IA,4x 100R + 4x 4.7k (ch1-4),63.95,67.17,90,4.5,6.0,isolated side
+R_STB_IB,4x 100R + 4x 4.7k (ch5-8),61.16,53.84,270,4.5,6.0,isolated side
+D_ESD_T1,SRV05-4 trigger ch1-4,67.59,37.65,90,3.5,3.5,isolated side
+D_ESD_T2,SRV05-4 trigger ch5-8,66.1,11.07,180,3.5,3.5,isolated side
+D_ESD_S1,SRV05-4 strobe ch1-4,80.24,67.3,0,3.5,3.5,isolated side
+D_ESD_S2,SRV05-4 strobe ch5-8,67.41,53.74,180,3.5,3.5,isolated side
+J3_RJ45,HanRun HR911105A RJ45 (left edge),10.75,62.0,0,21.5,16.0,fixed (edge/connector)
+J_PWR,Phoenix 1729128 terminal block (left edge),5.0,7.0,0,9.8,10.2,fixed (edge/connector)
+J10_CAM1,JST B4B-XH-A camera 1 (trig/strobe/5V_ISO/GND_ISO),81.4,57.9,0,6.5,12.9,fixed (edge/connector)
+J11_CAM2,JST B4B-XH-A camera 2 (trig/strobe/5V_ISO/GND_ISO),81.4,44.3,0,6.5,12.9,fixed (edge/connector)
+J12_CAM3,JST B4B-XH-A camera 3 (trig/strobe/5V_ISO/GND_ISO),81.4,30.7,0,6.5,12.9,fixed (edge/connector)
+J13_CAM4,JST B4B-XH-A camera 4 (trig/strobe/5V_ISO/GND_ISO),81.4,17.1,0,6.5,12.9,fixed (edge/connector)
+J14_CAM5,JST B4B-XH-A camera 5 (trig/strobe/5V_ISO/GND_ISO),73.8,57.9,0,6.5,12.9,fixed (edge/connector)
+J15_CAM6,JST B4B-XH-A camera 6 (trig/strobe/5V_ISO/GND_ISO),73.8,44.3,0,6.5,12.9,fixed (edge/connector)
+J16_CAM7,JST B4B-XH-A camera 7 (trig/strobe/5V_ISO/GND_ISO),73.8,30.7,0,6.5,12.9,fixed (edge/connector)
+J17_CAM8,JST B4B-XH-A camera 8 (trig/strobe/5V_ISO/GND_ISO),73.8,17.1,0,6.5,12.9,fixed (edge/connector)
