@@ -19,18 +19,18 @@ every script used to produce the results of the Phase 1 technical document.
 
 | File | Purpose | Document section |
 |---|---|---|
-| `ptp_sim.py` | PTP link simulator, MLP bias-corrector training, export of `mlp_weights.h`, closed-loop PI vs AI evaluation | 4.2–4.4, 5.3, Annex D–E |
-| `anomaly.py` | Camera and fault simulator, decision-tree training, export of `anomaly_tree.c`, threshold baseline | 4.2–4.4, 5.2, Annex D–E |
+| `ptp_sim.py` | PTP link simulator, MLP bias-corrector training, export of `mlp_weights.h`, closed-loop PI vs AI evaluation | 4, 5, Annex D–E |
+| `anomaly.py` | Camera and fault simulator, decision-tree training, export of `anomaly_tree.c`, threshold baseline | 4, 5, Annex D–E |
 | `ga_place.py` | Placement model: parts, isolation zones, weighted nets, cost function, genetic algorithm | 4.3 A |
-| `ga_final.py` | GA + simulated-annealing refinement + legalization → `placement_GA.csv`, figures 6 and 9 | 5, Annex E |
+| `ga_final.py` | GA + simulated-annealing refinement + legalization → `placement_GA.csv`, Figures 2 and C3 | 5, Annex E |
 | `baseline.py` | Conventional block placement (90 × 90 mm) and before/after comparison → `placement_before.csv` | 5.1 |
 | `calcs.py` | Skew budget, frequency error, ripple, power budget, IPC-2221 trace widths | 3.2–3.3 |
-| `fig_block.py`, `figs_ml.py`, `fig7.py` | Figures 1, 3, 7 and 8 | — |
+| `fig_block.py`, `figs_ml.py`, `fig7.py` | Figures 1, C1, C4 and C5 | — |
 | `*_results.json`, `ga_result.json`, `*.csv` | Results used in the document | — |
 | `firmware/STM32F407VE_1/` | Proteus VSM project sources, including the trained `mlp_weights.h` and `anomaly_tree.c` | 3.1, 3.2, 4.3 |
 | `firmware/tools/` | Stand-alone GCC build files and instruction-level emulator for the Flash/RAM/inference figures | 4.4 |
 | `docs/ERC.erc` | Proteus ERC report | 3.2, Annex A |
-| `docs/BOM_for_quote.csv` | Line-by-line BOM with manufacturer part numbers, quantities and reference designators (ready for Digi-Key / Mouser BOM tools) | 6.1 |
+| `docs/BOM_for_quote.csv` | Line-by-line BOM with manufacturer part numbers, quantities and reference designators (ready for Digi-Key / Mouser BOM tools) | 6.1, Annex G |
 | `docs/BOM_prices.xlsx` | Unit price of every component at 1 and 1,000 pieces (MXN) with its source, used for section 6.1 | 6.1 |
 
 `placement_GA.csv` is the placement used on the final PCB (x, y in mm from the bottom-left board corner, rotation in degrees).
